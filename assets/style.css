@@ -194,5 +194,5 @@ article {
 }
 
 .bio{
-    border: none;
+    border: none !important;
 }
