@@ -192,3 +192,7 @@ article {
 .visit-count{
     margin-top: 1rem;
 }
+
+.bio{
+    border: none;
+}
