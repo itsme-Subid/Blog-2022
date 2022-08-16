@@ -24,6 +24,14 @@ h1 {
     border-bottom: 1px solid #21262d;
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+    border-bottom: 1px solid #21262d;
+}
+
 p {
     padding-top: 1rem;
 }
@@ -42,3 +50,9 @@ p {
     margin-right: auto;
     margin-left: auto;
 }
+
+/* * {
+    box-sizing: border-box;
+    outline: 1px solid limegreen ! important;
+    background: rgb(0 100 0 / 0.05);
+} */
