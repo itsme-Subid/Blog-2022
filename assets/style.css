@@ -184,3 +184,7 @@ article {
 #home {
     margin-bottom: 3rem;
 }
+
+.odd-tr {
+    background-color: #161b22;
+}

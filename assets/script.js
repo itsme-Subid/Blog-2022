@@ -56,4 +56,13 @@
             ul1.classList.add('hide-ul1');
         }
     }
+
+    // table custom style
+    let table = Array.from(document.querySelectorAll('tr'));
+
+    table.forEach((tr, index, array) => {
+        if (index % 2 == 0) {
+            tr.classList.add('odd-tr');
+        }
+    });
 }
