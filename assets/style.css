@@ -30,7 +30,7 @@ header .ul0 {
 
 header .ul1 {
     position: absolute;
-    background-color: #0d1117;
+    background-color: #0d1117 !important;
     height: 100%;
     margin: 0;
     padding: 1rem 2rem;
