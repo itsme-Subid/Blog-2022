@@ -51,6 +51,11 @@ p {
     margin-left: auto;
 }
 
+.markdown-body ul,
+.markdown-body ol {
+    padding-left: 2em;
+}
+
 /* * {
     box-sizing: border-box;
     outline: 1px solid limegreen ! important;
