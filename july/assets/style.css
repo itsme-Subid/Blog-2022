@@ -4,7 +4,7 @@
 }
 
 .form-check-input:checked[type=checkbox] {
-    background-image: url(../../july/assets/check.svg) !important;
+    background-image: url(check.svg) !important;
 }
 
 .form-check-input:checked {
