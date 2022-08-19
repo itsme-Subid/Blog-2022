@@ -215,3 +215,9 @@ article {
         padding: 7rem 0rem;
     }
 }
+
+.bio-svg {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
