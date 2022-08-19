@@ -6,7 +6,7 @@
     let logo = document.querySelector('.logo');
     let logoLg = document.querySelector('.logo-lg');
 
-    document.querySelector('body').onresize = function () {
+    document.querySelector('body').onresize = () => {
         mediaQuery();
     };
     mediaQuery();
@@ -35,6 +35,11 @@
             }
             if (!logo.classList.contains('hide-span')) {
                 logo.classList.add('hide-span');
+            }
+            if (!ul1.classList.contains('hide-icon')) {
+                hamburger.classList.add('hide-icon');
+                close.classList.add('hide-icon');
+                ul1.classList.add('hide-ul1');
             }
         }
     }
