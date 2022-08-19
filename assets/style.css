@@ -218,6 +218,8 @@ article {
 
 .bio-svg {
     width: 100%;
-    top: 0;
-    left: 0;
+}
+
+.anchor-of-bio-svg {
+    width: 100%;
 }
