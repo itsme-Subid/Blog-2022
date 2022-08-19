@@ -56,6 +56,24 @@ p {
     padding-left: 2em;
 }
 
+.flex {
+    display: flex;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.header-elements {
+    width: 90%;
+    max-width: 950px;
+}
+
+
 /* * {
     box-sizing: border-box;
     outline: 1px solid limegreen ! important;
