@@ -6,9 +6,11 @@
     let logo = document.querySelector('.logo');
     let logoLg = document.querySelector('.logo-lg');
 
-    document.querySelector('body').onresize = () => {
+    let body = document.querySelector('body'); 
+    body.onresize = () => {
         mediaQuery();
     };
+
     mediaQuery();
     var mode = 0;
     function mediaQuery() {
