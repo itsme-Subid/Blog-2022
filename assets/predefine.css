@@ -12,6 +12,11 @@ body {
     color: #c9d1d9;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 .Box-body:last-of-type {
     margin-bottom: -1px;
     border-bottom-right-radius: 6px;
@@ -68,8 +73,91 @@ p {
     justify-content: space-around;
 }
 
-/* * {
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.bg-input {
+    background-color: rgb(42 42 53 / .15);
+}
+
+.border-input-border {
+    border-color: rgb(86 86 102 / .15);
+}
+
+input,
+textarea {
+    color: #c9d1d9;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.block {
+    display: block;
+}
+
+
+.mb-6 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-12 {
+    margin-bottom: 3rem;
+}
+
+button {
+    margin: 1rem 0rem 0rem 0rem;
+    background-color: transparent;
+    color: #1f6feb;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #1f6feb;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+    background-color: #1f6feb;
+    color: #0d1117;
+}
+
+button:active {
+    background-color: #0d56c4;
+    color: #1f1414;
+}
+
+* {
     box-sizing: border-box;
-    outline: 1px solid limegreen ! important;
-    background: rgb(0 100 0 / 0.05);
-} */
+    /* outline: 1px solid limegreen ! important;
+    background: rgb(0 100 0 / 0.05); */
+}

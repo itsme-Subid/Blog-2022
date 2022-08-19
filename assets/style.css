@@ -225,7 +225,7 @@ article {
 
 @media (min-width: 576px) {
     .main {
-        padding: 7rem 0rem;
+        padding: 7rem 0 0 0;
     }
 }
 
@@ -236,4 +236,41 @@ article {
 
 .anchor-of-bio-svg {
     width: 100%;
+}
+
+label {
+    margin-top: 1.5rem;
+}
+
+#project {
+    align-items: center;
+}
+
+.project-pic {
+    width: calc(100%/3);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.project-pic:hover {
+    filter: blur(4px) saturate(90%);
+}
+
+.project-title {
+    position: absolute;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.footer-png img {
+    max-width: 100%;
+}
+
+footer {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin-bottom: 0;
 }
