@@ -78,8 +78,15 @@ header span {
     color: #1f6feb;
 }
 
+@media (min-width: 576px) {
+    article h1 {
+        font-size: 1.5rem !important;
+    }
+}
+
 article h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    transition: font-size 0.3s ease-in-out;
 }
 
 h2 {
@@ -196,10 +203,6 @@ article {
     width: max-content;
     max-width: 100%;
     overflow: auto;
-}
-
-.f5 {
-    font-size: 14px;
 }
 
 #home {

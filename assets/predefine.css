@@ -17,12 +17,6 @@ body {
     scroll-behavior: smooth;
 }
 
-.Box-body:last-of-type {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-}
-
 h1 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -156,8 +150,8 @@ button:active {
     color: #1f1414;
 }
 
-* {
+/* * {
     box-sizing: border-box;
-    /* outline: 1px solid limegreen ! important;
-    background: rgb(0 100 0 / 0.05); */
-}
+    outline: 1px solid limegreen ! important;
+    background: rgb(0 100 0 / 0.05);
+} */
