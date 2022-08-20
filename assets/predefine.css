@@ -98,6 +98,11 @@ textarea {
     color: #c9d1d9;
 }
 
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
 .border {
     border-width: 1px;
 }
@@ -150,7 +155,7 @@ button:active {
     color: #1f1414;
 }
 
-/* * {
+/* {
     box-sizing: border-box;
     outline: 1px solid limegreen ! important;
     background: rgb(0 100 0 / 0.05);

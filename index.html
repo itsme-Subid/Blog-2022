@@ -17,7 +17,15 @@
     <meta name="twitter:card" content="summary" />
     <meta property="twitter:title" content="Blog by Subid" />
     <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Blog by Subid Das","headline":"Blog by Subid","name":"Blog","url":"https://itsme-subid.github.io/Experimental/"}</script>
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "description": "Blog by Subid Das",
+            "headline": "Blog by Subid",
+            "name": "Blog",
+            "url": "https://itsme-subid.github.io/Experimental/"
+        }
+    </script>
     <link rel="stylesheet" href="assets/predefine.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="shortcut icon" type="image/x-icon"
@@ -332,7 +340,7 @@
                 <section class="w-full">
                     <h2 dir="auto">
                         <g-emoji>
-                            ☎️</g-emoji> Connect with me
+                            ☎️</g-emoji> Contact me
                     </h2>
                     <p class="section-paragraph">Feel free to to contact me any time, through any method
                         below.</p>
@@ -340,29 +348,32 @@
                     <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
                         <div>
                             <form action="https://formspree.io/f/mdobdyjz" method="POST" id="my-form">
-                                <div class="space-y-12">
-                                    <div class="form-group">
-                                        <label for="Name" class="block mb-6">Name</label>
-                                        <input type="text" id="Name"
-                                            class="w-full border border-input-border bg-input px-4 py-4" name="Name"
-                                            placeholder="Enter your Name">
+                                <div class="form-group">
+                                    <div class="space-y-12">
+                                        <div class="form-group">
+                                            <label for="Name" class="block mb-6">Name</label>
+                                            <input type="text" id="Name"
+                                                class="w-full border border-input-border bg-input px-4 py-4" name="Name"
+                                                placeholder="Enter your Name" required>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="form-group">
-                                    <label for="email" class="block mb-6">Email</label>
-                                    <input type="email" class="w-full border border-input-border bg-input px-4 py-4"
-                                        id="email" name="email" placeholder="Enter your Email">
-                                </div>
+                                    <div class="form-group">
+                                        <label for="email" class="block mb-6">Email</label>
+                                        <input type="email" class="w-full border border-input-border bg-input px-4 py-4"
+                                            id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                            placeholder="Enter your Email" required>
+                                    </div>
 
-                                <div class="form-group">
-                                    <label for="message" class="block mb-6">Message</label>
-                                    <textarea name="message"
-                                        class="w-full border border-input-border bg-input px-4 py-4" id="message"
-                                        cols="30" rows="10" placeholder="Enter your Message"></textarea>
+                                    <div class="form-group">
+                                        <label for="message" class="block mb-6">Message</label>
+                                        <textarea name="message"
+                                            class="w-full border border-input-border bg-input px-4 py-4" id="message"
+                                            cols="30" rows="10" placeholder="Enter your Message" required></textarea>
+                                    </div>
+                                    <button type="submit" class="px-6 py-2 bg-theme">Send
+                                        it!</button>
                                 </div>
-                                <button type="submit" class="px-6 py-2 bg-theme">Send
-                                    it!</button>
                             </form>
                             <div id="status"></div>
                         </div>
