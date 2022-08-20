@@ -281,7 +281,7 @@ body {
 
 .hover-bright img {
     transition: filter .1s ease-in-out;
-    filter: invert(50%) sepia(10%) saturate(3000%) hue-rotate(173deg) brightness(90%) contrast(108%);
+    filter: invert(50%) sepia(10%) saturate(3000%) hue-rotate(173deg) brightness(100%) contrast(108%);
 }
 
 .hover-bright img:hover {
