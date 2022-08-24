@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* {
+    box-sizing: border-box;
+    outline: 1px solid limegreen ! important;
+    background: rgb(0 100 0 / 0.05);
+} */
+
 * {
     margin: 0;
     padding: 0;
@@ -154,9 +160,3 @@ button:active {
     background-color: #0d56c4;
     color: #1f1414;
 }
-
-/* {
-    box-sizing: border-box;
-    outline: 1px solid limegreen ! important;
-    background: rgb(0 100 0 / 0.05);
-} */

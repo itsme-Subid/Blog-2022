@@ -305,3 +305,28 @@ label {
     background-color: #161b22;
     filter: brightness(120%);
 }
+
+.skills-table tbody td img {
+    height: 64px;
+}
+
+.post-heading {
+    color: #1f6feb;
+}
+
+.thumbnail {
+    display: grid;
+    place-items: center;
+}
+
+.thumbnail h1 {
+    text-decoration: none;
+    border: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.post a{
+    text-decoration: none !important;
+}
