@@ -41,6 +41,10 @@ p {
     padding-top: 1rem;
 }
 
+li{
+    list-style-type: disc;
+}
+
 .px-5 {
     padding-right: 32px;
     padding-left: 32px;

@@ -37,6 +37,7 @@ header {
 
 header ul li {
     font-size: 1rem;
+    list-style-type: none;
 }
 
 header ul {
